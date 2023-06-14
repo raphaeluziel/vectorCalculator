@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Vector Calculator</string>
+    <string name="logo">Logo</string>
+    <string name="enter_unit_vectors_btn">Enter vectors in unit vector notation</string>
+    <string name="scaleA_input_hint">scale</string>
+    <string name="ai_input_hint">i</string>
+    <string name="aj_input_hint">j</string>
+    <string name="ak_input_hint">k</string>
+    <string name="vectorA">VectorA</string>
+    <string name="scaleB_input_hint">scale</string>
+    <string name="bi_input_hint">i</string>
+    <string name="bj_input_hint">j</string>
+    <string name="bk_input_hint">k</string>
+    <string name="as_input_description">Vector A scale factor</string>
+    <string name="ai_input_description">Vector A x(i)</string>
+    <string name="aj_input_description">Vector A y(j)</string>
+    <string name="ak_input_description">Vector A z(k)</string>
+    <string name="bs_input_description">Vector B scale factor</string>
+    <string name="bi_input_description">Vector B x(i)</string>
+    <string name="bj_input_description">Vector B y(j)</string>
+    <string name="bk_input_description">Vector B z(k)</string>
+    <string name="vectorB">VectorB</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="dotProduct">\u22c5</string>
+    <string name="crossProduct">\u00d7</string>
+    <string name="results">RESULTS</string>
+    <string name="unit_vectors_title">Vector Math\nvectors entered in\nunit-vector notation</string>
+</resources>
