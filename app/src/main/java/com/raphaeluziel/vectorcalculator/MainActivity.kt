@@ -4,6 +4,16 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.raphaeluziel.vectorcalculator.databinding.ActivityMainBinding
+import kotlin.math.*
+
+class Vector (var scale: Double = 0.0,  var i: Double = 0.0, var j: Double = 0.0, var k: Double = 0.0) {
+    fun magnitude() : Double {
+        return sqrt(i*i + j*j + k*k)
+    }
+    override fun toString(): String {
+        return "${i} i + ${j} j + ${k} k +  Magnitude = ${magnitude()}"
+    }
+}
 
 class MainActivity : AppCompatActivity() {
 

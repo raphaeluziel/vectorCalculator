@@ -60,10 +60,15 @@
             android:ems="4"
             android:gravity="end"
             android:hint="@string/scaleA_input_hint"
+            android:textColorHint="#8D6E63"
             android:importantForAutofill="no"
             android:inputType="numberDecimal"
             android:labelFor="@id/ai_input_description"
-            tools:ignore="DuplicateSpeakableTextCheck" />
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:lines="1"
+            tools:ignore="DuplicateSpeakableTextCheck"/>
 
         <EditText
             android:id="@+id/ai_input"
@@ -74,9 +79,15 @@
             android:ems="4"
             android:gravity="end"
             android:hint="@string/ai_input_hint"
+            android:textColorHint="#8D6E63"
             android:importantForAutofill="no"
             android:inputType="numberDecimal"
-            tools:ignore="DuplicateSpeakableTextCheck" />
+            android:labelFor="@id/ai_input"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:lines="1"
+            tools:ignore="DuplicateSpeakableTextCheck"/>
 
         <EditText
             android:id="@+id/aj_input"
@@ -87,9 +98,15 @@
             android:ems="4"
             android:gravity="end"
             android:hint="@string/aj_input_hint"
+            android:textColorHint="#8D6E63"
             android:importantForAutofill="no"
             android:inputType="numberDecimal"
-            tools:ignore="DuplicateSpeakableTextCheck" />
+            android:labelFor="@id/aj_input"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:lines="1"
+            tools:ignore="DuplicateSpeakableTextCheck"/>
 
         <EditText
             android:id="@+id/ak_input"
@@ -100,9 +117,15 @@
             android:ems="4"
             android:gravity="end"
             android:hint="@string/ak_input_hint"
+            android:textColorHint="#8D6E63"
             android:importantForAutofill="no"
             android:inputType="numberDecimal"
-            tools:ignore="DuplicateSpeakableTextCheck" />
+            android:labelFor="@id/ak_input"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:lines="1"
+            tools:ignore="DuplicateSpeakableTextCheck"/>
 
         <TextView
             android:id="@+id/as_input_description"
@@ -228,50 +251,78 @@
         <EditText
             android:id="@+id/scaleB"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="48dp"
-            android:ems="4"
-            android:inputType="numberDecimal"
-            android:gravity="end"
             android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:ems="4"
+            android:gravity="end"
+            android:hint="@string/scaleB_input_hint"
+            android:textColorHint="#8D6E63"
             android:importantForAutofill="no"
-            android:hint="@string/scaleB_input_hint" />
+            android:inputType="numberDecimal"
+            android:labelFor="@id/bi_input_description"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:lines="1"
+            tools:ignore="DuplicateSpeakableTextCheck"/>
 
         <EditText
             android:id="@+id/bi_input"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="48dp"
-            android:ems="4"
-            android:inputType="numberDecimal"
-            android:gravity="end"
             android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:ems="4"
+            android:gravity="end"
+            android:hint="@string/bi_input_hint"
+            android:textColorHint="#8D6E63"
             android:importantForAutofill="no"
-            android:hint="@string/bi_input_hint" />
+            android:inputType="numberDecimal"
+            android:labelFor="@id/bi_input"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:lines="1"
+            tools:ignore="DuplicateSpeakableTextCheck"/>
 
         <EditText
             android:id="@+id/bj_input"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="48dp"
-            android:ems="4"
-            android:inputType="numberDecimal"
-            android:gravity="end"
             android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:ems="4"
+            android:gravity="end"
+            android:hint="@string/bj_input_hint"
+            android:textColorHint="#8D6E63"
             android:importantForAutofill="no"
-            android:hint="@string/bj_input_hint"/>
+            android:inputType="numberDecimal"
+            android:labelFor="@id/bj_input"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:lines="1"
+            tools:ignore="DuplicateSpeakableTextCheck"/>
 
         <EditText
             android:id="@+id/bk_input"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="48dp"
-            android:ems="4"
-            android:inputType="numberDecimal"
-            android:gravity="end"
             android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"
+            android:ems="4"
+            android:gravity="end"
+            android:hint="@string/bk_input_hint"
+            android:textColorHint="#8D6E63"
             android:importantForAutofill="no"
-            android:hint="@string/bk_input_hint"/>
+            android:inputType="numberDecimal"
+            android:labelFor="@id/bk_input"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionDone"
+            android:lines="1"
+            tools:ignore="DuplicateSpeakableTextCheck"/>
 
         <TextView
             android:id="@+id/bs_input_description"
